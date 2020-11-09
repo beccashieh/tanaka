@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-image: url("../images/green_background.jpg");
+    background-color: rgba(41, 70, 24, 0.6);
+    background-size: 100%;
+}
+
+.card, .card-img {
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.card-title, .card-text {
+    margin-left: 20px;
+}
+
+.nav {
+    background-color: 	rgb(42, 70, 24, 0.8) !important;
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.logo-img {
+    display: inline-flex;
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+
+.section {
+    background-color: 	rgb(42, 70, 24, 0.8) !important;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px;
+}
