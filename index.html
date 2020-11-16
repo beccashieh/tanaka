@@ -20,18 +20,17 @@
       href="https://fonts.googleapis.com/css?family=Oxygen|Poppins"
       rel="stylesheet"
     />
-    <style>
-      body {
-        background-image: url("assets/images/green_background.jpg");
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Quicksand:wght@500&display=swap" rel="stylesheet"><!-- Compiled and minified CSS -->
+
     <title>Irodori Healing</title>
   </head>
   <body>
-    <div class="jumbotron">
+    <div class="jumbotron" role="banner">
       <div class="container">
-        <h1 class="display-4 text-center">Irodori Healing</h1>
+        <h1 class="display-4 text-center"><img class="logo" src="assets/images/irodori.jpg" alt="Irodori Healing logo"></img>
+        </h1>
         <h2 class="lead text-center">Welcome</h2>
+        <hr></hr>
         <ul class="nav justify-content-center" role="navigation" aria-label="main">
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -45,7 +44,9 @@
           </ul>
       </div>
     </div>
+    <div class="content" role="main">
     <div class="section" id="about">
+      <h2 class="text-center">About</h2>
         <div class="card mb-3" style="max-width: 800px;">
             <div class="row no-gutters">
               <div class="col-md-4">
@@ -53,50 +54,76 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h2 class="card-title">About</h2>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h3 class="card-title">Your Therapist</h3>
+                  <hr role="presentation"></hr>
+                  <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
                 </div>
               </div>
             </div>
           </div>
     </div>
-    <div class="section card-group" id="services">
-        <div class="card mb-3" style="max-width: 650px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="assets/images/candles.jpg" class="card-img" alt="">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h2 class="card-title">Services</h2>
-                  <hr role="presentation"></hr>
-                  <ul class="card-text">
-                    <li>60 minute custom massage: $75</li>
-                    <li>90 minute custom massage: $105</li>
-                    <li>120 minute custom massage: $135</li>
-                  </ul>
+    <div class="section" id="services">
+        <h2 class="text-center">Services</h2>
+        <div class="card-group">
+            <div class="card mb-3" style="max-width: 650px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="assets/images/candles.jpg" class="card-img" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title">Massage Therapy</h3>
+                      <hr role="presentation"></hr>
+                      <ul class="card-text">
+                        <li>60 minute custom massage: $75</li>
+                        <li>90 minute custom massage: $105</li>
+                        <li>120 minute custom massage: $135</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 650px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="assets/images/candles.jpg" class="card-img" alt="">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h2 class="card-title">Optional Add-ons</h2>
-                  <hr role="presentation"></hr>
-                  <ul class="card-text">
-                    <li>Hot Stone: $20</li>
-                    <li>Foot Scrub: $10</li>
-                    <li>Cupping: $5</li>
-                  </ul>
+              <div class="card mb-3" style="max-width: 650px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="assets/images/candles.jpg" class="card-img" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title">Optional Add-ons</h3>
+                      <hr role="presentation"></hr>
+                      <ul class="card-text">
+                        <li>Hot Stone: $20</li>
+                        <li>Foot Scrub: $10</li>
+                        <li>Cupping: $5</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
+        </div>
     </div>
+  </div>
+    <footer id="contact" role="contentinfo">
+      <h2 class="text-center">
+        Irodori Healing - Massage Therapy
+      </h2>
+      <p class="text-center">
+        Ayano Tanaka - Head Therapist
+      </p>
+      <p class="text-center">
+        <i class="far fa-envelope" role="presentation"></i>
+        ayanot1014@yahoo.com
+      </p>
+      <p class="text-center">
+        <i class="fas fa-phone-alt" role="presentation"></i>
+        404-428-9349
+      </p>
+      <hr></hr>
+      <p>Copyright © 2020 Irodori Healing - All Rights Reserved.</p>
+    </footer>
   </body>
+  <script src="https://kit.fontawesome.com/2619192659.js" crossorigin="anonymous"></script>
 </html>
