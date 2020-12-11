@@ -109,8 +109,8 @@ hr {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #F2DAB5;
+    color: rgb(14, 16, 3, .8);
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -126,13 +126,14 @@ hr {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #756314;
+    color: #F2DAB5;
   }
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: rgb(242, 218, 181, .5);
     display: none;
     overflow: hidden;
   }
