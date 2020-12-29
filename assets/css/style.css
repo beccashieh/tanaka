@@ -1,160 +1,180 @@
 body {
-    margin: 0;
-    background-image: url("../images/green_background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: rgba(41, 70, 24, 0.6);
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  background-image: url("../images/green_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(41, 70, 24, 0.6);
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
 }
 
 #about .card {
-    margin: 40px auto;
+  margin: 40px auto;
 }
 
 #about .card img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 250px;
-    height: 300px;
-    margin-top: -125px; /* Half the height */
-    margin-left: -150px;
-    padding-left: 40px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 40px auto;
 }
 
 .accordion-header {
-    font-family: 'Quicksand', sans-serif;
-    font-size: large;
+  font-family: "Quicksand", sans-serif;
+  font-size: large;
 }
 
 .accordion-item {
-    width: 100%;
+  width: 100%;
 }
 
-.card, .card-img {
-    border-radius: 15px;
-    margin: 20px;
-    padding: 10px;
+.card,
+.card-img {
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
 }
 
-.card-title, .card-text {
-    margin-left: 20px;
+.card-title,
+.card-text {
+  margin-left: 20px;
 }
 
 footer {
-    flex-shrink: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: 	rgb(14, 16, 3, .8) !important;
-    color: white;
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
-  }
+  flex-shrink: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(14, 16, 3, 0.8) !important;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+}
 
-h1, h2 {
-    color: #F2DAB5;
-    font-family: 'Architects Daughter', cursive;
+h1,
+h2 {
+  color: #f2dab5;
+  font-family: "Architects Daughter", cursive;
 }
 
 hr {
-    border: 1px solid #F2DAB5;
+  border: 1px solid #f2dab5;
 }
 
 .jumbotron {
-    background-color: 	rgb(14, 16, 3, .8) !important;
+  background-color: rgb(14, 16, 3, 0.8) !important;
 }
 
 .logo {
-    margin: auto;
-    height: 250px;
-    width: 250px;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: white;
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #F2DAB5; /* Set a background color */
-    color: rgb(14, 16, 3); /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #756314;
-    color: #F2DAB5;
-  }
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #f2dab5; /* Set a background color */
+  color: rgb(14, 16, 3); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #756314;
+  color: #f2dab5;
+}
 
 .nav {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .nav-link {
-    color: #F2DAB5 !important;
+  color: #f2dab5 !important;
 }
 
 .nav-link:hover {
-    background-color: #F2DAB5;
-    color: rgb(14, 16, 3) !important;
+  background-color: #f2dab5;
+  color: rgb(14, 16, 3) !important;
 }
 
 .logo-img {
-    display: inline-flex;
-    float: right;
-    height: 200px;
-    width: 200px;
+  display: inline-flex;
+  float: right;
+  height: 200px;
+  width: 200px;
 }
 
 .section {
-    background-color: 	rgb(14, 16, 3, .8) !important;
-    border-radius: 20px;
-    padding: 40px;
-    margin: 40px auto;
-    width: 80%;
+  background-color: rgb(14, 16, 3, 0.8) !important;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px auto;
+  width: 80%;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #F2DAB5;
-    color: rgb(14, 16, 3, .8);
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
+  background-color: #f2dab5;
+  color: rgb(14, 16, 3, 0.8);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion i {
+  float: right;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #756314;
+  color: #f2dab5;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: rgb(242, 218, 181, 0.5);
+  display: none;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .accordion-header {
+    font-size: medium;
   }
 
-  .accordion i {
-      float: right;
+  .card-img {
+    width: 80%;
+    position: relative;
+    margin: none;
   }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color: #756314;
-    color: #F2DAB5;
+
+  h3 {
+    font-size: large;
   }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    padding: 0 18px;
-    background-color: rgb(242, 218, 181, .5);
-    display: none;
-    overflow: hidden;
+
+  p,
+  li {
+    font-size: small;
   }
+}
